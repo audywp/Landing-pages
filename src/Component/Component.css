@@ -1,0 +1,38 @@
+.button {
+    height: 50px;
+    width: 140px;
+    background-color: #000100;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    width: 92vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+}
+
+#middleNav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+#middleNav .active {
+    color: #000;
+    font-weight: bold;
+}
+
+#middleNav a {
+    text-decoration: none;
+    color: #333;
+}
+
